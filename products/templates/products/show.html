@@ -6,7 +6,10 @@
     <dt>Description</dt><dd>{{product.description}}</dd>
     <dt>Ages</dt><dd>{{product.age_range}}</dd>
     <dt>Price</dt><dd>{{product.price}}</dd>
+    {% for img in product.productimage_set.all %}
+    <img src="{{ img.image.url }}" alt = '{{img.caption}}'>
 </dl>
+    {% endfor %}
 {% endblock %}
 
 {% block footer %}
