@@ -12,5 +12,7 @@ This, and HW4, were particularly difficult for me. I think the instructions did 
 
 ## Feedback
 
-Once you commit and submit your work to Github, I'll update this section with feedback.
+S
+
+Well done -- everything looks great.
 
